@@ -11,17 +11,6 @@ import RxSwift
 import NRxSwift
 import NKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___State {
-    
-}
 
-protocol ___FILEBASENAMEASIDENTIFIER___Action {
-    
-}
-
-protocol ___FILEBASENAMEASIDENTIFIER___Reactable {
-    var state: ___FILEBASENAMEASIDENTIFIER___State {get}
-    var action: ___FILEBASENAMEASIDENTIFIER___Action {get}
-}
 
 

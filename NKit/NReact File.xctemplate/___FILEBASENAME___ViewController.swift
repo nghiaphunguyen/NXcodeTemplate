@@ -37,12 +37,23 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController {
 
 //MARK: React
 fileprivate extension ___FILEBASENAMEASIDENTIFIER___ViewController {
-    func setupState(with reactor: ___FILEBASENAMEASIDENTIFIER___Reactable) {
+    func setupState(withReactor reactor: ___FILEBASENAMEASIDENTIFIER___Reactable) {
         
     }
     
-    func setupAction(with reactor: ___FILEBASENAMEASIDENTIFIER___Reactable) {
+    func setupAction(withReactor reactor: ___FILEBASENAMEASIDENTIFIER___Reactable) {
         
+    }
+}
+
+//MARK: Creator
+extension ___FILEBASENAMEASIDENTIFIER___ViewController {
+    static func testingInstance() -> ___FILEBASENAMEASIDENTIFIER___ViewController {
+        return ___FILEBASENAMEASIDENTIFIER___ViewController()
+    }
+    
+    static func instance() -> ___FILEBASENAMEASIDENTIFIER___ViewController {
+        return ___FILEBASENAMEASIDENTIFIER___ViewController(reactor: ___FILEBASENAMEASIDENTIFIER___Reactor())
     }
 }
 
@@ -72,8 +83,8 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController {
         super.viewDidLoad()
         
         guard let reactor = self.reactor else {return}
-        self.setupState(with: reactor)
-        self.setupAction(with: reactor)
+        self.setupState(withReactor: reactor)
+        self.setupAction(withReactor: reactor)
     }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -11,9 +11,25 @@ import RxSwift
 import NRxSwift
 import NKit
 
+/*---------------------Reactable---------------------*/
+protocol ___FILEBASENAMEASIDENTIFIER___State {
+    
+}
+
+protocol ___FILEBASENAMEASIDENTIFIER___Action {
+    
+}
+
+protocol ___FILEBASENAMEASIDENTIFIER___Reactable {
+    var state: ___FILEBASENAMEASIDENTIFIER___State {get}
+    var action: ___FILEBASENAMEASIDENTIFIER___Action {get}
+}
+
+/*---------------------Reactor---------------------*/
 final class ___FILEBASENAMEASIDENTIFIER___Reactor: NSObject {
 }
 
+//MARK: React
 extension ___FILEBASENAMEASIDENTIFIER___Reactor: ___FILEBASENAMEASIDENTIFIER___State {
     
 }
@@ -32,4 +48,9 @@ extension ___FILEBASENAMEASIDENTIFIER___Reactor: ___FILEBASENAMEASIDENTIFIER___R
     }
 }
 
-
+//MARK:: Creator
+extension ___FILEBASENAMEASIDENTIFIER___Reactor {
+    static func instance() -> ___FILEBASENAMEASIDENTIFIER___Reactor {
+        return ___FILEBASENAMEASIDENTIFIER___Reactor()
+    }
+}
