@@ -9,7 +9,20 @@
 import UIKit
 import NKit
 
-//MARK: Properties
+//MARK: -------Model-------
+protocol ___FILEBASENAMEASIDENTIFIER___TableViewCellModel: NKDiffable {
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___TableViewCellModel {
+    var diffIdentifier: String {
+        return ""
+    }
+}
+
+struct ___FILEBASENAMEASIDENTIFIER___TableViewCellModelImp: ___FILEBASENAMEASIDENTIFIER___TableViewCellModel {
+}
+
+//MARK: -------Cell-------
 final class ___FILEBASENAMEASIDENTIFIER___TableViewCell: NKBaseTableViewCell {
 
 }
@@ -30,19 +43,6 @@ extension ___FILEBASENAMEASIDENTIFIER___TableViewCell {
     override func setupRx() {
 
     }
-}
-
-//MARK: Model
-protocol ___FILEBASENAMEASIDENTIFIER___TableViewCellModel: NKDiffable {
-}
-
-extension ___FILEBASENAMEASIDENTIFIER___TableViewCellModel {
-  var diffIdentifier: String {
-    return ""
-  }
-}
-
-struct ___FILEBASENAMEASIDENTIFIER___TableViewCellModelImp: ___FILEBASENAMEASIDENTIFIER___TableViewCellModel {
 }
 
 extension ___FILEBASENAMEASIDENTIFIER___TableViewCell: NKListViewCellConfigurable {

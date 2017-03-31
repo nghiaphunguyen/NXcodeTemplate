@@ -9,6 +9,21 @@
 import UIKit
 import NKit
 
+//MARK: Model
+protocol ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModel: NKDiffable {
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModel {
+    var diffIdentifier: String {
+        return ""
+    }
+}
+
+struct ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModelImp: ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModel {
+    
+}
+
+
 //MARK: Layout
 final class ___FILEBASENAMEASIDENTIFIER___CollectionViewCell: NKBaseCollectionViewCell {
 
@@ -32,19 +47,6 @@ extension ___FILEBASENAMEASIDENTIFIER___CollectionViewCell {
   }
 }
 
-//MARK: Model
-protocol ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModel: NKDiffable {
-}
-
-extension ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModel {
-  var diffIdentifier: String {
-    return ""
-  }
-}
-
-struct ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModelImp: ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModel {
-
-}
 
 extension ___FILEBASENAMEASIDENTIFIER___CollectionViewCell: NKListViewCellConfigurable {
     typealias ViewCellModel = ___FILEBASENAMEASIDENTIFIER___CollectionViewCellModel

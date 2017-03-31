@@ -11,12 +11,12 @@ import NKit
 import RxSwift
 import NRxSwift
 
-/*---------------------Iteratable---------------------*/
+//MARK: -------Iteratable-------
 protocol ___FILEBASENAMEASIDENTIFIER___Iteratable {
 
 }
 
-/*---------------------Iterator-----------------------*/
+//MARK: -------Iterator-------
 struct ___FILEBASENAMEASIDENTIFIER___Iterator: ___FILEBASENAMEASIDENTIFIER___Iteratable {
   
 }

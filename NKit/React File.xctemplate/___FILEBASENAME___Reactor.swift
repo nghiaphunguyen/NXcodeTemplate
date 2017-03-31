@@ -11,7 +11,7 @@ import RxSwift
 import NRxSwift
 import NKit
 
-/*---------------------Reactable---------------------*/
+//MARK: -------Reactable-------
 protocol ___FILEBASENAMEASIDENTIFIER___State {
     
 }
@@ -25,7 +25,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___Reactable {
     var action: ___FILEBASENAMEASIDENTIFIER___Action {get}
 }
 
-/*---------------------Reactor---------------------*/
+//MARK: -------Reactor-------
 final class ___FILEBASENAMEASIDENTIFIER___Reactor: NSObject {
 }
 
