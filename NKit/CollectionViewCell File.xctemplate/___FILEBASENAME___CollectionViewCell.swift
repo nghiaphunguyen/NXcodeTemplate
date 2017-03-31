@@ -31,13 +31,17 @@ final class ___FILEBASENAMEASIDENTIFIER___CollectionViewCell: NKBaseCollectionVi
 
 //MARK: Layout
 extension ___FILEBASENAMEASIDENTIFIER___CollectionViewCell {
-  fileprivate enum Id: String, NKViewIdentifier {
-      case a
-  }
+    fileprivate enum Id: String, NKViewIdentifier {
+        case a
+    }
+    
+    fileprivate struct Style {
+        
+    }
 
-  override func setupView() {
+    override func setupView() {
 
-  }
+    }
 }
 
 //MARK: Action

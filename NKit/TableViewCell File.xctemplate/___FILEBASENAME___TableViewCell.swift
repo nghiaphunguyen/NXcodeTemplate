@@ -32,6 +32,10 @@ extension ___FILEBASENAMEASIDENTIFIER___TableViewCell {
     fileprivate enum Id: String, NKViewIdentifier {
         case a
     }
+    
+    fileprivate struct Style {
+        
+    }
 
     override func setupView() {
 

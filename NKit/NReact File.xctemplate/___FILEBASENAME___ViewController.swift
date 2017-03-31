@@ -18,11 +18,11 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
 //MARK: Layout
 extension ___FILEBASENAMEASIDENTIFIER___ViewController {
-    enum Id: String, NKViewIdentifier {
+    fileprivate enum Id: String, NKViewIdentifier {
         case a
     }
     
-    struct Layout {
+    fileprivate struct Style {
         
     }
     

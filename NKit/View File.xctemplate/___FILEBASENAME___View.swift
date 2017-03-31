@@ -19,6 +19,10 @@ extension ___FILEBASENAMEASIDENTIFIER___View {
         case a
     }
     
+    fileprivate struct Style {
+        
+    }
+    
     override func setupView() {
         
     }
