@@ -53,7 +53,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController {
     }
     
     static func instance() -> ___FILEBASENAMEASIDENTIFIER___ViewController {
-        return ___FILEBASENAMEASIDENTIFIER___ViewController(reactor: ___FILEBASENAMEASIDENTIFIER___Reactor())
+        return ___FILEBASENAMEASIDENTIFIER___ViewController(reactor: ___FILEBASENAMEASIDENTIFIER___Reactor.instance())
     }
 }
 
